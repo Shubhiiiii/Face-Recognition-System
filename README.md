@@ -57,4 +57,9 @@ Then copy all the images of that person in ./training-images/Name_Of_Person fold
 ### Prediction:
 - Make folder test-images which contains all the images you want to find people in.
 - Run on cmd python predict.py to predict the faces in each image.
-- 
+
+### Real-time Recognition
+For real-time face recognition using a webcam:
+```sh
+    python webcam.py
+
